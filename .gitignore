@@ -1,0 +1,31 @@
+# 依赖
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# 构建产物
+dist/
+build/
+out/
+*.egg-info/
+
+# 环境变量与密钥
+.env
+.env.local
+*.pem
+*.key
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
+npm-debug.log*
+
+# WorkBuddy 工作数据（如需要入库，删除本行）
+.workbuddy/
